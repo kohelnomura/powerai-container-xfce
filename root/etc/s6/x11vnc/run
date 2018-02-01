@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec /usr/bin/x11vnc -rfbauth /root/.vnc/passwd -create -forever -env FD_TAG=my_xfce_1 -env FD_SESS=xfce -rfbport 5901
