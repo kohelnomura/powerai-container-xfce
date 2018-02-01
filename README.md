@@ -19,4 +19,4 @@ sudo NV_GPU=0 nvidia-docker run --net=<NETWORK> --ip=<IP> -d --name <CONTAINER_N
 Now, open the vnc viewer and connect to port 5901.
 
 
-<img src="https://raw.github.com/koheinomura/powerai-container-xfce/master/screenshots/xfce.png?v1" width=600/>
+![demo](https://raw.githubusercontent.com/wiki/kohelnomura/powerai-container-xfce/images/xfce.png)
