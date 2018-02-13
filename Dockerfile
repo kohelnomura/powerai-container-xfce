@@ -60,6 +60,9 @@ ENV LANG=ja_JP.UTF-8
 
 # import python modules
 RUN pip install IPython==5.3
+RUN pip install jupyter
+RUN mkdir /root/.jupyter
+RUN echo "c.NotebookApp.ip = '*'" > ~/.jupyter/jupyter_notebook_config.py
 
 ENTRYPOINT ["/usr/bin/s6-svscan","/etc/s6"]
 CMD []
